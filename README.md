@@ -26,3 +26,22 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 * OpenCV
 * FFMpeg
 * OpenFace: https://github.com/TadasBaltrusaitis/OpenFace
+
+## Installation
+
+* FFMPeg
+
+https://www.ffmpeg.org/download.html
+
+* OpenCV
+
+https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_table_of_contents_setup/py_table_of_contents_setup.html#py-table-of-content-setup
+
+* Python dependencies
+
+```
+$ virtualenv --system-site-packages -p python3 motivation_recognition_venv
+$ source motivation_recognition_venv/bin/activate
+(motivation_recognition_venv) $ pip install --upgrade pip
+(motivation_recognition_venv) $ pip install --upgrade -r requirements.txt
+```
