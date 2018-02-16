@@ -67,7 +67,7 @@ The basic pipeline is the following:
 * Third: Run the scripts for performing leave-one-student-out cross-validation.
 
 ```
-(motivation_recognition_venv) $ python script_losocv.py <visual_features.yaml>
+(motivation_recognition_venv) $ python script_losocv.py <cross_validation.yaml>
 ```
 
 Due to privacy issues, the data with the video recordings from the students cannot be publicly shared.
