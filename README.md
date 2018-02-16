@@ -25,7 +25,7 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 * PyYaml
 * OpenCV
 * FFMpeg
-* OpenFace: https://github.com/TadasBaltrusaitis/OpenFace
+* OpenFace
 
 ## Installation
 
@@ -36,6 +36,10 @@ https://www.ffmpeg.org/download.html
 * OpenCV
 
 https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_table_of_contents_setup/py_table_of_contents_setup.html#py-table-of-content-setup
+
+* OpenFace
+
+https://github.com/TadasBaltrusaitis/OpenFace
 
 * Python dependencies
 
