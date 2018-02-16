@@ -13,3 +13,16 @@ Don't hesitate to send us an e-mail or report an issue, if something is broken (
 
 ## Project structure
 * `python_scripts` -- this folder contains scripts used to run the experiments described in the paper. The CNN implementation is an extension of the discriminator implemented here: https://github.com/carpedm20/DCGAN-tensorflow
+
+## Requirements
+
+* Python 3
+* Tensorflow
+* Numpy
+* Scipy
+* Keras
+* Scikit-learn
+* PyYaml
+* OpenCV
+* FFMpeg
+* OpenFace: https://github.com/TadasBaltrusaitis/OpenFace
