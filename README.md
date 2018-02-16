@@ -49,3 +49,25 @@ $ source motivation_recognition_venv/bin/activate
 (motivation_recognition_venv) $ pip install --upgrade pip
 (motivation_recognition_venv) $ pip install --upgrade -r requirements.txt
 ```
+## Running the experiments
+The basic pipeline is the following: 
+
+* First: extract the visual frames;
+
+```
+(motivation_recognition_venv) $ python extract_visual_frames.py <input_folder> <output_folder>
+```
+
+* Second: Preprocess the frames to obtain the region-of-interest, in our case, the faces;
+
+```
+(motivation_recognition_venv) $ python extract_visual_features.py <visual_features.yaml>
+```
+
+* Third: Run the scripts for performing leave-one-student-out cross-validation.
+
+```
+(motivation_recognition_venv) $ python script_losocv.py <visual_features.yaml>
+```
+
+Due to privacy issues, the data with the video recordings from the students cannot be publicly shared.
